@@ -1,0 +1,27 @@
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #8c93fc;
+    overflow: hidden;
+    font-family: sans-serif;
+
+}
+.gift
+{
+    position: relative;
+
+}
+.gift::before
+{
+    content: '';
+    position: absolute;
+    width: 170px;
+    height: 20px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 50%;
+    top: 90px;
+    left: -10px;
+}

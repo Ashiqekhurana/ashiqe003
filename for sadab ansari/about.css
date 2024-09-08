@@ -1,0 +1,15 @@
+*
+{
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('bg1.png');
+    background-size: cover;
+}
+.social
+{
+    position: absolute;
+    top: 30px;
+    gap: 50px;
+
+}
